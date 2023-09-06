@@ -1,22 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 28_8_2023</title>
+    <title>Practica Manejo de Texto</title>
 </head>
-<body>
-    <header style="background-color: yellow;">
-        <center><h1><b>Esta es la Practica de Elementos Semanticos</b></h1></center>
+<body style="background-color: bisque;">
+    <header style="background-color: yellowgreen;">
+        <center><h1>Esto es la Practica de etiquetas de manejo de texto</h1></center>
     </header>
     <main>
-        <p>Bueno hoy en la clase se vieron aspectos muy importantes de html 
-            como ser Elementos genericos, semanticos, y tambien se vieron algunas 
-            etiquetas y para que nos siven cada una de ellas.
-        </p>
+        <div class="encabezados" style="background-color: aqua;">
+            <h2>Subtitulo </h2>
+            <h3>Subtitulo del Subtitulo</h3>
+            <h4>Esto puede llegar h6 con los subtitulos</h4>
+        </div>
+    
+        <div id="parrafos" style="background-color: yellow;">
+           <p>Bueno la anterior clase no vine pero mediante las buenas 
+            diapositivas pude entender el manejo de texto con las etiquetas 
+            de HTML
+           </p>
+           <p>Bueno ahora por eso estoy realizando esta practica por que pude
+            entender como funcionan las etiquetas.
+           </p>
+        </div>
+        
+        <div class="salto_linea" style="background-color: aqua;">
+            <p>
+                Lo que tengo que comprar es: <br>
+                Pan <br>
+                leche <br>
+                huevos <br>
+            </p>
+            <p>
+                Lo que tengo en cas es: <br>
+                queso <br>
+                cafe <br>
+            </p>
+        </div>
+    
+        <div id="cambio_de_tema" style="background-color: yellow;">
+            <p>Bueno hoy es un dia largo por que hay examen a la noche </p>
+            <hr>
+            <p>Lo que podemos hacer para comer el viernes es una buena parrillada </p>
+        </div>
+    
+        <div class="WBR" style="background-color: aqua;">
+            <p> 
+                Un dato muy genial es que muchos en el conlegio no sabian 
+                que significaba ADN bueno es:<wbr> Acido desoxiribosa Nucleico 
+            </p>    
+        </div>
+    
+        <div class="textoElevado" style="background-color: yellow;">
+            <p>Una de mis mejores pocisiones en atletismo fue: </p>
+            <p> un 3 <sup>er</sup> lugar </p>
+        </div>
+    
+        <div id="subindice" style="background-color: aqua;">
+            <p>
+                Un elemento fundamental para vivir es:
+                H <sub>2</sub>O
+            </p>
+        </div>
+    
+        <div class="textoImportante" style="background-color: yellow;">
+            <p>
+                Una regla para poder comer agusto con los abuelos y personas mayores es:
+               <strong><strong>nunca preguntes que vamos a comer</strong></strong>
+            </p>
+        </div>
+    
+        <div class="enfasis" style="background-color: aqua;">
+            <p>
+                No me gusta como <em>tu</em> escribes
+            </p>
+            <p>
+                Ella dice que <em>a mi</em> no me gusta la carne 
+            </p>
+        </div>         
+    
+        <div class="resaltado" style="background-color: yellow;">
+            <p>
+                En la vida aprendemos muchas cosas poemas, chistes, frases, pero 
+                dejando delado eso aprendemos tambien versiculos el cual que a mi  
+                parecer es el mas importante es <mark>Filipenses 4:13</mark>
+            </p>
+        </div>
+    
+        <div class="citalinea" style="background-color: aqua;">
+            <p>Cuando quieras escuchar buena musica entra:<q cite="https://www.youtube.com/@twentyonepilots"> te dije
+                que era buena musica</q></p>
+        </div>
+    
+        <div id="citaBloque" style="background-color: yellow;">
+            <blockquote cite="https://www.bibliaon.com/es/versiculos_de_paz/">
+                <p>
+                    Estar en paz es uno de los trabajos mas dificiles.
+                    Estar en paz muchas veces es imposible.
+                    Pero se puede adquirir pas.
+                </p>
+            </blockquote>
+        </div>
+    
+        <div class="tituloTrabajo" style="background-color: aqua;">
+            <p>Mis libros favoritos son:<br>
+                Recuerdos del futuro de <cite>Erich Von Daniken</cite>
+                Regreso a las estrellas de <cite>Erich Von Daniken</cite>
+                Del amor y otros Demonios de <cite>Gabriel Garcia Marquez</cite>
+            </p>
+    
+        </div>
+    
+        <div class="definiciones" style="background-color: yellow;">
+            <p>
+                Un <dfn>cation</dfn> es una unidad de energio 
+                muy pequeña pero potente 
+            </p>
+        </div>
+        
+        <div class="abreviatura" style="background-color: aqua;">
+            <p>
+                Una de mis bandas favoritas es <abbr title="twenty one pilots">TOP</abbr>
+                 por sus canciones que inspiran 
+            </p>
+        </div>
+    
+        <div class="texto" style="background-color: yellow;">
+            <p>
+                Uno de los deportes que practico es el baloncesto,
+                la pocision que juego es: Ala <small>pivot</small>
+            </p>
+        </div>
+    
+        <div id="textoAgregado" style="background-color: aqua;">
+            <p>
+                Un dia estaba llendo a mi casa ehh hice parar el trufi y me baje
+            </p>
+            <ins>Pero se me olvido comentar que me pase de la parada</ins>
+        </div>
+    
+        <div class="textoEliminado" style="background-color: yellow;">
+            <p>
+                Un dia estaba llendo a mi casa ehh hice parar el trufi y me baje
+            </p>
+            <del>Pero se me olvido comentar que me pase de la parada</del>
+        </div>
+    
+        <div id="tachartexto" style="background-color: aqua;">
+            <p><s>Hoy en la noche cerviremos hambuirguesas</s></p>
+            <p>Se Agoto</p>
+        </div>
+    
+        <div class="codigo" style="background-color: yellow;">
+            <pre>
+                <code class="languagePhyton">
+                    prinft("Hola Mundo!")
+                </code>
+            </pre>
+        </div>
+    
+        <div class="salidaComputadora" style="background-color: aqua;">
+            <p>No sabia como salirme de pantalla completa hasta que me aparecio este mensaje:</p>
+            <p>
+                <samp>
+                    Salir de pantalla completa<br>
+                    Presione F11 
+                </samp>
+            </p>
+        </div>
+    
+        <div class="entrada-usuario" style="background-color: yellow;">
+            <p>
+                Para visitar la pagina presione: <br>
+                <kbd><kbd>Ctrl</kbd>+<kbd>click</kbd></kbd>.
+            </p>
+        </div>
+    
+        <div id="conservarFormato" style="background-color: aqua;">
+            <pre>
+                 /\_/\  
+                ( o.o ) 
+                 > ^ <
+            </pre>        
+        </div>
+    
+        <div class="contacto" style="background-color: yellow;">
+            <p>Contacte conmigo:</p>
+            <address>
+                <a href="mailto:joel.navarro@ucb.edu.bo">Mi Correo</a><br>
+            </address>
+        </div>
     </main>
-    <footer style="background-color: aqua;">
-        <p>Copyright &copy; 1990-2014 Peter Doe, todos los derechos reservados.</p>
+    <footer style="background-color: yellowgreen;">
+        <p>Prctica de Joel Navarro XD</p>
     </footer>
 </body>
 </html>
